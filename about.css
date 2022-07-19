@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.title--element{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#nav--list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    font-size: xx-large;
+}
+
+#programming--table {
+    color: rgb(255,20,150);
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border-style: groove;
+}
