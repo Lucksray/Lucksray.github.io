@@ -1,53 +1,66 @@
 * {
     padding: 0px;
     margin: 0px;
+    color: whitesmoke;
 }
 
-.title--element{
+body {
+    background-image: url("./CVWebBackground.jpg");
+    background-repeat: no-repeat;
+}
+
+.title--element {
+    background-color: purple;
+    margin: 0px 45px 0px 45px;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
 #nav--list {
-    display: flex;
+    display: inline-flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
-    font-size: xx-large;
-    
-}
-
-.title--main {
-    margin-left: 25px;
-    margin-top: 50px;
-    width: 100%;
-    background: pink;
-
+    margin-bottom: 50px;
 }
 
 #current {
+    background-color: grey;
     display: flex;
-    align-items: flex-start;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 45px;
 }
 
 .programming--languages {
-    margin-top: 50px;
+    background-color: orangered;
+    width: 35%;
+    margin-top: 25px;
 }
 
 #languages {
+    width: 10%;
+    background-color: orange;
     list-style: none;
-    font-family: sans-serif;
-    margin-left: 60px;
-    margin-top: 10px;
-}
-
-.goals {
-    margin-top: 50px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
 #profile--image {
-    display: start;
-    align-items: center;
-    background-color: yellow;
+    background-color: aqua;
+    margin: 0px 45px 0px 45px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#profile--description {
+    display: flex;
+    align-self: center;
 }
